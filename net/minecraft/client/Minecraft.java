@@ -567,7 +567,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         this.ingameGUI = new GuiIngameHook(this);
         
         //zero
-        zer0.startClient();
+        zer0.instance.startClient();
 
         if (this.serverName != null)
         {

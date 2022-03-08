@@ -18,9 +18,9 @@ public class ModuleManager {
 		newMod(new ChestStealer());
 		//combat
 		newMod(new Aimbot());
+		newMod(new Criticals());
 		newMod(new FastBow());
 		newMod(new KillAura());
-		newMod(new KillAurarot());
 		//movement
 		newMod(new AutoSprint());
 		newMod(new AutoWalk());
@@ -40,6 +40,7 @@ public class ModuleManager {
 		//player
 		newMod(new AntiAFK());
 		newMod(new AntiCobweb());
+		newMod(new AutoArmor());
 		newMod(new AutoMine());
 		newMod(new AutoRespawn());
 		newMod(new FastPlace());
